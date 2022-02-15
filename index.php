@@ -14,7 +14,7 @@ $_SESSION;
 <body>
     <a href = "logout.php"> Logout </a>
     <h1> Index Page </h1>
-    <h2> Hello ,<?php echo $user_data['username']??null; ?>
+    <h2> Hello ,<?php echo $user_data['email_id']??null; ?>
 </body>
 
 
